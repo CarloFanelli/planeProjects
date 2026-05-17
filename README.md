@@ -5,8 +5,7 @@ A small portfolio of creative-coding experiments **being built across a 30-hour 
 WebSocket bridging, and GPU-shader 3D visualization — all running offline on an M1 Pro.
 
 > **🛠 Work in progress.** The four sub-repos are currently **empty scaffolds** waiting to be
-> built during the flights. Open the **[WORKBOOK](WORKBOOK.html)** for the step-by-step build
-> guide, or the **[PROJECTS plan](PROJECTS.html)** for the full implementation reference.
+> built during the flights.
 
 The four repos build on each other:
 
@@ -81,10 +80,6 @@ This one is meant to be fully self-contained: `git clone + npm install + python 
 
 ## How it was built
 
-All scaffolding (npm cache, Python wheels, Gibber bundle, Three.js / Tone.js source for
-offline reference) is pre-fetched before takeoff. During flights:
-
-- **Build guide** → [WORKBOOK.md](WORKBOOK.md) / [WORKBOOK.html](WORKBOOK.html) — step-by-step instructions, file by file, with commit messages ready to copy-paste. Optional interactive checkboxes in the HTML version (state persists in localStorage).
-- **Full reference** → [PROJECTS.md](PROJECTS.md) / [PROJECTS.html](PROJECTS.html) — complete implementation code for every file, used as a "solutions manual" if I get stuck mid-flight.
+All scaffolding (npm cache, Python wheels, Gibber bundle, Three.js / Tone.js source for offline reference) was pre-fetched before takeoff so the four projects could be implemented during flights without internet access.
 
 Built by [Carlo Fanelli](https://github.com/CarloFanelli) · spring 2026
